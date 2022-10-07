@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tri Intan Maharani</title>
+<style>
+
+ h3{
+    background-image: linear-gradient(to right, rgb(0, 255, 136), rgb(3, 145, 228) ) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0.2rem solid rgb(9, 0, 128);
+ }
+ .wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+</style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="child">
+    <img src="foto.jpeg" alt="me">
+    <h3>Tri Intan Maharani - 32211487</h3>
+    <button onclick="hellodunia()">Table Sederhana</button>
+    </div>
+</div>
+<script>
+   function hellodunia() {
+     const lanjut = confirm("Beralih Ke halaman selanjutnya?")
+     if (lanjut) {
+       return document.location.href = "https://triintanmaharani.github.io/TriIntanMaharani-p03.github.io/"
+     }
+     alert("Membatalkan pemindahan halaman")
+   }
+ </script>
+</body>
+</html>
