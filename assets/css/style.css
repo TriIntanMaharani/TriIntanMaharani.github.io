@@ -368,6 +368,14 @@ nav .tombol-media button.active:hover span:nth-of-type(3) {
     padding: 35px;
 }
 
+.sertif {
+    height: auto;
+    width: 50%;
+    border: 4px dashed #fff;
+    border-radius: 20px;
+    margin: 20px;
+}
+
 
 
 /* Responsif TABLET */
@@ -418,6 +426,11 @@ nav .tombol-media button.active:hover span:nth-of-type(3) {
     .pp-tentang {
         margin-right: 50px;
     }
+	
+	.sertif {
+        height: auto;
+        width: 300px;
+    }
 }
 
 /* Menu Responsif Breakpoint */
@@ -437,11 +450,11 @@ nav .tombol-media button.active:hover span:nth-of-type(3) {
         width: auto;
         height: auto;
         margin-top: 40px;
-        padding-top: 20px;
         display: flex;
         text-align: center;
         flex-direction: column;
         align-items: center;
+		padding: 7px;
     }
 
 
